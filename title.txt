@@ -1,3 +1,3 @@
 teaching assistant,lecturers,senior lecturers,assistant professor,associate professor,
 full professor,academician,administration,invigilator,register office, aa, sa, security, janitors, hr,
-marketing, academic adviser,academic support,librarian.
+marketing, academic adviser,academic support,librarian

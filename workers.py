@@ -142,3 +142,19 @@ academic_adviser = AcademicAdviser("staff","John Smith", "AA0000101",
               "johnsmith@gmail.com", "1995/02/12", "male", "English", "998901001010",
               "full-time", "john_smith", 20000, "Academic Adviser")
 academic_adviser.work()
+
+
+# 11. Librarian
+class Librarian(Staff):
+    def __init__(self, type, name, pass_id, email, bd, gender, nationality, phone, occupation, profile, salary, title):
+        super().__init__(type, name, pass_id, email, bd, gender, nationality, phone, occupation, profile, salary, title)
+
+
+    def work(self):
+        print("A librarian manages and organizes library resources, assists with research, and supports literacy and learning.")
+
+
+librarian = Librarian("staff","John Smith", "AA0000101",
+              "johnsmith@gmail.com", "1995/02/12", "male", "English", "998901001010",
+              "full-time", "john_smith", 20000, "librarian")
+librarian.work()
