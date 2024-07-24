@@ -113,3 +113,17 @@ hr = HR("staff","John Smith", "AA0000101",
               "full-time", "john_smith", 20000, "hr")
 hr.work()
 
+# 9. Marketing
+class Marketing(Staff):
+    def __init__(self, type, name, pass_id, email, bd, gender, nationality, phone, occupation, profile, salary, title):
+        super().__init__(type, name, pass_id, email, bd, gender, nationality, phone, occupation, profile, salary, title)
+
+
+    def work(self):
+        print("Marketing involves promoting and selling products or services, including market research and advertising.")
+
+
+marketing = Marketing("staff","John Smith", "AA0000101",
+              "johnsmith@gmail.com", "1995/02/12", "male", "English", "998901001010",
+              "full-time", "john_smith", 20000, "marketing")
+marketing.work()
