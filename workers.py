@@ -28,3 +28,17 @@ invigilator = Invigilator("staff","John Smith", "AA0000101",
               "johnsmith@gmail.com", "1995/02/12", "male", "English", "998901001010",
               "full-time", "john_smith", 20000, "invigilator")
 invigilator.work()
+
+# 3.Registrar's Office
+class RegistrarOffice(Staff):
+    def __init__(self, type, name, pass_id, email, bd, gender, nationality, phone, occupation, profile, salary, title):
+        super().__init__(type, name, pass_id, email, bd, gender, nationality, phone, occupation, profile, salary, title)
+
+
+    def work(self):
+        print("The Registrar's Office manages student records, course registrations, and academic transcripts.")
+
+register_office = RegistrarOffice("staff","John Smith", "AA0000101",
+              "johnsmith@gmail.com", "1995/02/12", "male", "English", "998901001010",
+              "full-time", "john_smith", 20000, "register office")
+register_office.work()
