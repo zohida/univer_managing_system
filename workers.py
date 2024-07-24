@@ -127,3 +127,18 @@ marketing = Marketing("staff","John Smith", "AA0000101",
               "johnsmith@gmail.com", "1995/02/12", "male", "English", "998901001010",
               "full-time", "john_smith", 20000, "marketing")
 marketing.work()
+
+# 10. Academic Adviser
+class AcademicAdviser(Staff):
+    def __init__(self, type, name, pass_id, email, bd, gender, nationality, phone, occupation, profile, salary, title):
+        super().__init__(type, name, pass_id, email, bd, gender, nationality, phone, occupation, profile, salary, title)
+
+
+    def work(self):
+        print("An academic adviser assists students with their educational goals, course selections, and career planning.")
+
+
+academic_adviser = AcademicAdviser("staff","John Smith", "AA0000101",
+              "johnsmith@gmail.com", "1995/02/12", "male", "English", "998901001010",
+              "full-time", "john_smith", 20000, "Academic Adviser")
+academic_adviser.work()
