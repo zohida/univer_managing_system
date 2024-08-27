@@ -1,4 +1,4 @@
-from faculty_class import Faculty
+from faculty import Faculty
 
 class TeachingAssistant(Faculty):
     def __init__(self,type, name, pass_id, email, bd, gender, nationality, phone, course, occupation, hours, salary, title, employee_id, research_topic):
